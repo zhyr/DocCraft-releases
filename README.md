@@ -6,16 +6,16 @@ DocCraft 是面向公文、合同、档案和日常办公的本地桌面文档�
 
 ## 下载
 
-当前版本：**1.0.3**（2026-10-13）
+当前版本：**1.0.4**（2026-10-14）
 
 系统：macOS，Apple 芯片（arm64）
 
-安装包在 [Release 1.0.3](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.3)：
+安装包在 [Release 1.0.4](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.4)：
 
 - 文件：`DocCraft-macos-arm64.zip`
-- SHA-256：`039aba1469c558d11909f31e16d68a79c576a554cf4c89d4b16a774a7057f757`
+- SHA-256：`3e62c78de1cf0b261cea5c2c56ba79585ed602ca25593466106525c2950b08e9`
 
-1.0.2 仍可从 [Release 1.0.2](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.2) 下载。
+1.0.3 仍可从 [Release 1.0.3](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.3) 下载。
 
 这个包已用 Developer ID 签名，并完成 Apple 公证、装订票据。
 
@@ -35,7 +35,7 @@ PDF 与 OFD 在 DocCraft 里浏览和做版式编辑：插入文本、图片、�
 
 启动时窗口中心对齐屏幕可用区域的中心。初始大小是 1200×860，可以拖拽改变。标题栏不再重复文件名，导航栏在窗口最上方，并避开关闭、最小化和缩放按钮。「官网」在右上角。Markdown 的预览和源码切换在阅读工具栏上。
 
-设置里可以选择蓝色或红色应用图标。重启后，启动台和程序坞上的图标换成所选颜色。
+设置里可以选择蓝色或红色应用图标。重启后，启动台和程序坞上的图标换成所选颜色。图标外侧不再带灰边和半透明方框。设置页只在有更高版本号时显示更新提示。
 
 Markdown 和纯文本在 DocCraft 里改原文。Word、PowerPoint、Excel 和 RTF 在 DocCraft 里浏览；改内容时交给本机已经安装的办公软件。
 
