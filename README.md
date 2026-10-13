@@ -6,16 +6,16 @@ DocCraft 是面向公文、合同、档案和日常办公的本地桌面文档�
 
 ## 下载
 
-当前版本：**1.0.2**（2026-10-13）
+当前版本：**1.0.3**（2026-10-13）
 
 系统：macOS，Apple 芯片（arm64）
 
-安装包在 [Release 1.0.2](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.2)：
+安装包在 [Release 1.0.3](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.3)：
 
 - 文件：`DocCraft-macos-arm64.zip`
-- SHA-256：`0c8d67fcc79858b2da1a526d0bed1755687fbed75282e22a214a96dfe07eede8`
+- SHA-256：`039aba1469c558d11909f31e16d68a79c576a554cf4c89d4b16a774a7057f757`
 
-1.0.1 仍可从 [Release 1.0.1](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.1) 下载。
+1.0.2 仍可从 [Release 1.0.2](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.2) 下载。
 
 这个包已用 Developer ID 签名，并完成 Apple 公证、装订票据。
 
@@ -33,7 +33,9 @@ PDF 与 OFD 在 DocCraft 里浏览和做版式编辑：插入文本、图片、�
 
 编辑模式可以给页面设置页眉和页脚。六个位置分别是左上、眉中、右上、左下、页脚中间、右下。每个位置可以空着、写固定文字，或嵌入更新时间、网址、页码。嵌入内容在保存和导出时按当时的时间、文件路径和页序重写。浏览模式不能设置页眉和页脚。
 
-启动时窗口中心对齐屏幕可用区域的中心。初始大小是 1200×860，可以拖拽改变。Markdown 的预览和源码切换在阅读工具栏上。
+启动时窗口中心对齐屏幕可用区域的中心。初始大小是 1200×860，可以拖拽改变。标题栏不再重复文件名，导航栏在窗口最上方，并避开关闭、最小化和缩放按钮。「官网」在右上角。Markdown 的预览和源码切换在阅读工具栏上。
+
+设置里可以选择蓝色或红色应用图标。重启后，启动台和程序坞上的图标换成所选颜色。
 
 Markdown 和纯文本在 DocCraft 里改原文。Word、PowerPoint、Excel 和 RTF 在 DocCraft 里浏览；改内容时交给本机已经安装的办公软件。
 
