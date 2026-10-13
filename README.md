@@ -6,14 +6,16 @@ DocCraft 是面向公文、合同、档案和日常办公的本地桌面文档�
 
 ## 下载
 
-当前版本：**1.0.1**（2026-10-13）
+当前版本：**1.0.2**（2026-10-13）
 
 系统：macOS，Apple 芯片（arm64）
 
-安装包在 [Release 1.0.1](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.1)：
+安装包在 [Release 1.0.2](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.2)：
 
 - 文件：`DocCraft-macos-arm64.zip`
-- SHA-256：`7fefd52fe457ddbd1218cda3c9fe5a0217d0bdbf7834507f0756f0a20f4acd33`
+- SHA-256：`0c8d67fcc79858b2da1a526d0bed1755687fbed75282e22a214a96dfe07eede8`
+
+1.0.1 仍可从 [Release 1.0.1](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.1) 下载。
 
 这个包已用 Developer ID 签名，并完成 Apple 公证、装订票据。
 
@@ -28,6 +30,10 @@ DocCraft 是面向公文、合同、档案和日常办公的本地桌面文档�
 同一窗口可以打开 PDF、OFD、Markdown、纯文本、HTML、RTF、Word、Excel、PowerPoint 和常见图片，并先给出可翻页的预览。
 
 PDF 与 OFD 在 DocCraft 里浏览和做版式编辑：插入文本、图片、链接和形状，高亮、批注、图章和签名，水印、页码、遮盖，撤销和重做，加密、合并、拆分、压缩，导出和打印。扫描页可以做文字识别。
+
+编辑模式可以给页面设置页眉和页脚。六个位置分别是左上、眉中、右上、左下、页脚中间、右下。每个位置可以空着、写固定文字，或嵌入更新时间、网址、页码。嵌入内容在保存和导出时按当时的时间、文件路径和页序重写。浏览模式不能设置页眉和页脚。
+
+启动时窗口中心对齐屏幕可用区域的中心。初始大小是 1200×860，可以拖拽改变。Markdown 的预览和源码切换在阅读工具栏上。
 
 Markdown 和纯文本在 DocCraft 里改原文。Word、PowerPoint、Excel 和 RTF 在 DocCraft 里浏览；改内容时交给本机已经安装的办公软件。
 
