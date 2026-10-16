@@ -6,16 +6,18 @@ DocCraft 是面向公文、合同、档案和日常办公的本地桌面文档�
 
 ## 下载
 
-当前版本：**1.0.4**（2026-10-14）
+当前版本：**1.0.8**（2026-10-17）
 
 系统：macOS，Apple 芯片（arm64）
 
-安装包在 [Release 1.0.4](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.4)：
+安装包在 [Release 1.0.8](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.8)：
 
 - 文件：`DocCraft-macos-arm64.zip`
-- SHA-256：`3e62c78de1cf0b261cea5c2c56ba79585ed602ca25593466106525c2950b08e9`
+- SHA-256：`a5849f99964e5f5fd33c3af4a812cbe7033d1c92146272520dc13b0135c61c3c`
 
-1.0.3 仍可从 [Release 1.0.3](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.3) 下载。
+请先删除「应用程序」里的旧 DocCraft.app，再用访达双击这个 zip 解压，把解压出的 `DocCraft.app` 拖进「应用程序」。不要直接传送已经解压的 `.app`。
+
+1.0.4 仍可从 [Release 1.0.4](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.4) 下载。
 
 这个包已用 Developer ID 签名，并完成 Apple 公证、装订票据。
 
