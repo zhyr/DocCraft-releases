@@ -14,14 +14,14 @@ Word、Excel、PowerPoint、PDF、OFD、EPUB 这些格式先被读成同一份�
 
 ## 下载
 
-当前版本：**1.0.27**（2026-11-21）
+当前版本：**1.0.28**（2026-11-21）
 
 系统：macOS 12 及以上，Apple 芯片（arm64）与 Intel（x86_64）通用
 
-安装包在 [Release 1.0.27](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.27)：
+安装包在 [Release 1.0.28](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.28)：
 
 - 文件：`DocCraft-macos-universal.zip`
-- SHA-256：`c979f1bf28c55fba34b20bcb0299848c19f018cef4283a5bf9c474efd969cc5c`
+- SHA-256：`0068f006a8d9cb062131e072e90561af4638cb3d91667f567fcac7ca7aa051ef`
 
 请先删除「应用程序」里的旧 DocCraft.app，再用访达双击这个 zip 解压，把解压出的 `DocCraft.app` 拖进「应用程序」。不要直接传送已经解压的 `.app`。
 
@@ -37,7 +37,8 @@ Word、Excel、PowerPoint、PDF、OFD、EPUB 这些格式先被读成同一份�
 
 | 版本 | 发布日期 | 主要变化 | 安装包 |
 | --- | --- | --- | --- |
-| 1.0.27 | 2026-11-21 | 阅粒读伴：多行输入与回车发送、生成中提示与停止、重新生成、对话气泡布局；修复清空对话时的崩溃 | 通用包 |
+| 1.0.28 | 2026-11-21 | Markdown 预览改为灰场浮白纸，修复窗口变宽后右侧像多出空白窗口的问题 | 通用包 |
+| 1.0.27 | 2026-11-21 | 阅粒读伴：多行输入与回车发送、生成中提示与停止、重新生成、对话气泡布局；修复清空对话时的崩溃 | [Release](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.27) |
 | 1.0.24 | 2026-10-17 | 通用安装包，支持 macOS 12 及以上的 Intel 与 Apple 芯片 | [Release](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.24) |
 | 1.0.9 | 2026-10-18 | 阅读召回按页送出命中段落 | — |
 | 1.0.8 | 2026-10-17 | 阅粒读伴与安装修复 | [Release](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.8) |
