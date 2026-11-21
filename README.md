@@ -6,18 +6,16 @@ DocCraft 是面向公文、合同、档案和日常办公的本地桌面文档�
 
 ## 下载
 
-当前版本：**1.0.8**（2026-10-17）
+当前版本：**1.0.27**（2026-11-21）
 
-系统：macOS，Apple 芯片（arm64）
+系统：macOS 12 及以上，Apple 芯片（arm64）与 Intel（x86_64）通用
 
-安装包在 [Release 1.0.8](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.8)：
+安装包在 [Release 1.0.27](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.27)：
 
-- 文件：`DocCraft-macos-arm64.zip`
-- SHA-256：`a5849f99964e5f5fd33c3af4a812cbe7033d1c92146272520dc13b0135c61c3c`
+- 文件：`DocCraft-macos-universal.zip`
+- SHA-256：`c979f1bf28c55fba34b20bcb0299848c19f018cef4283a5bf9c474efd969cc5c`
 
 请先删除「应用程序」里的旧 DocCraft.app，再用访达双击这个 zip 解压，把解压出的 `DocCraft.app` 拖进「应用程序」。不要直接传送已经解压的 `.app`。
-
-1.0.4 仍可从 [Release 1.0.4](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.4) 下载。
 
 这个包已用 Developer ID 签名，并完成 Apple 公证、装订票据。
 
@@ -26,6 +24,22 @@ DocCraft 是面向公文、合同、档案和日常办公的本地桌面文档�
 1. 下载 zip 并解压。
 2. 将 `DocCraft.app` 拖到「应用程序」。
 3. 从「应用程序」打开。若系统提示该应用来自互联网，选择打开。
+
+## 版本更新时间线
+
+| 版本 | 发布日期 | 主要变化 | 安装包 |
+| --- | --- | --- | --- |
+| 1.0.27 | 2026-11-21 | 阅粒读伴：多行输入与回车发送、生成中提示与停止、重新生成、对话气泡布局；修复清空对话时的崩溃 | 通用包 |
+| 1.0.24 | 2026-10-17 | 通用安装包，支持 macOS 12 及以上的 Intel 与 Apple 芯片 | [Release](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.24) |
+| 1.0.9 | 2026-10-18 | 阅读召回按页送出命中段落 | — |
+| 1.0.8 | 2026-10-17 | 阅粒读伴与安装修复 | [Release](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.8) |
+| 1.0.7 | 2026-10-17 | 体验修复 | — |
+| 1.0.6 | 2026-10-17 | 体验修复 | — |
+| 1.0.5 | 2026-10-15 | 文本编辑与导航 | — |
+| 1.0.4 | 2026-10-14 | 应用图标可选择颜色 | [Release](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.4) |
+| 1.0.3 | 2026-10-13 | 窗口顶部与导航 | [Release](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.3) |
+| 1.0.2 | 2026-10-13 | 页眉与页脚设置、窗口行为 | [Release](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.2) |
+| 1.0.1 | 2026-10-13 | 阅读助手首个公开安装包 | [Release](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.1) |
 
 ## 能做什么
 
