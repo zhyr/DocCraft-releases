@@ -14,14 +14,14 @@ Word、Excel、PowerPoint、PDF、OFD、EPUB 这些格式先被读成同一份�
 
 ## 下载
 
-当前版本：**1.0.28**（2026-11-21）
+当前版本：**1.0.30**（2026-11-27）
 
 系统：macOS 12 及以上，Apple 芯片（arm64）与 Intel（x86_64）通用
 
-安装包在 [Release 1.0.28](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.28)：
+安装包在 [Release 1.0.30](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.30)：
 
 - 文件：`DocCraft-macos-universal.zip`
-- SHA-256：`dafe6d4e5c5ff22cdc3820824ad52f1f887bdb6f29a76030fcd5fb33e42382d6`
+- SHA-256：`55991b9442ea322634dc2fc310f4c577d27827917d53f08579b601c7230c8a78`
 
 请先删除「应用程序」里的旧 DocCraft.app，再用访达双击这个 zip 解压，把解压出的 `DocCraft.app` 拖进「应用程序」。不要直接传送已经解压的 `.app`。
 
@@ -61,7 +61,7 @@ MCP 的解析和检索在本机完成。返回给 Agent 的内容是否会发往
 /Applications/DocCraft.app/Contents/MacOS/doccraft-mcp --list-tools
 ```
 
-预期版本输出为 `doccraft-mcp 1.0.28`。如果应用安装在其他位置，将配置中的 `/Applications/DocCraft.app` 替换为实际路径。
+预期版本输出为 `doccraft-mcp 1.0.30`。如果应用安装在其他位置，将配置中的 `/Applications/DocCraft.app` 替换为实际路径。
 
 不带参数运行时进入持续 stdio 服务，stdin 关闭后自动退出。日常使用时由 MCP 客户端自动启动，不需要把它作为后台服务常驻，也没有 HTTP 端口或 API Key。
 
@@ -333,6 +333,8 @@ printf '%s\n' \
 
 | 版本 | 发布日期 | 主要变化 | 安装包 |
 | --- | --- | --- | --- |
+| 1.0.30 | 2026-11-27 | 新增macOS Quick Look 预览扩展（代码、配置、点文件等）；PDF 两阶段加载大幅缩短打开耗时，启动不再冷列举 iCloud；修复退出卡死与拖放 Markdown 崩溃 | [Release](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.30) |
+| 1.0.29 | 2026-11-26 | 支持直接打开任意文本与代码文件并识别点文件；页面增删改整合进侧栏「页面」标签 | — |
 | 1.0.28 | 2026-11-21 | 优化页面编辑与划线性能，移除重复图章入口，内置 MCP 文档检索与写入服务 | 通用包 |
 | 1.0.27 | 2026-11-21 | 阅粒读伴：多行输入与回车发送、生成中提示与停止、重新生成、对话气泡布局；修复清空对话时的崩溃 | [Release](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.27) |
 | 1.0.24 | 2026-10-17 | 通用安装包，支持 macOS 12 及以上的 Intel 与 Apple 芯片 | [Release](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.24) |
