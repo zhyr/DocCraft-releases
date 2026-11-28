@@ -14,14 +14,15 @@ Word、Excel、PowerPoint、PDF、OFD、EPUB 这些格式先被读成同一份�
 
 ## 下载
 
-当前版本：**1.0.30**（2026-11-27）
+当前版本：**1.0.30**（2026-11-28）
 
 系统：macOS 12 及以上，Apple 芯片（arm64）与 Intel（x86_64）通用
 
 安装包在 [Release 1.0.30](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.30)：
 
 - 文件：`DocCraft-macos-universal.zip`
-- SHA-256：`55991b9442ea322634dc2fc310f4c577d27827917d53f08579b601c7230c8a78`
+- SHA-256：`613cfd618b2cca87764d5892a3cd0e35f52ee082e18c96f5a6399f3231f6b2e3`
+- 版本哈希：`1c1b4007`
 
 请先删除「应用程序」里的旧 DocCraft.app，再用访达双击这个 zip 解压，把解压出的 `DocCraft.app` 拖进「应用程序」。不要直接传送已经解压的 `.app`。
 
@@ -333,7 +334,7 @@ printf '%s\n' \
 
 | 版本 | 发布日期 | 主要变化 | 安装包 |
 | --- | --- | --- | --- |
-| 1.0.30 | 2026-11-27 | 新增macOS Quick Look 预览扩展（代码、配置、点文件等）；PDF 两阶段加载大幅缩短打开耗时，启动不再冷列举 iCloud；修复退出卡死与拖放 Markdown 崩溃 | [Release](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.30) |
+| 1.0.30 | 2026-11-28 | Quick Look 覆盖 421 种内容类型，可替代 Syntax 的常见源码预览场景；任意文件进入“打开方式”候选，点文件可见，保存支持无后缀与已有后缀；PDF 两阶段加载、退出卡死与拖放 Markdown 崩溃修复 | [Release](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.30) |
 | 1.0.29 | 2026-11-26 | 支持直接打开任意文本与代码文件并识别点文件；页面增删改整合进侧栏「页面」标签 | — |
 | 1.0.28 | 2026-11-21 | 优化页面编辑与划线性能，移除重复图章入口，内置 MCP 文档检索与写入服务 | 通用包 |
 | 1.0.27 | 2026-11-21 | 阅粒读伴：多行输入与回车发送、生成中提示与停止、重新生成、对话气泡布局；修复清空对话时的崩溃 | [Release](https://github.com/zhyr/DocCraft-releases/releases/tag/v1.0.27) |
